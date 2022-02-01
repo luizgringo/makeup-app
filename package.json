@@ -1,0 +1,12 @@
+{
+  "name": "makeup-app",
+  "version": "1.0.0",
+  "description": "Makeup Catalog Web App from Module 1 of React Bootcamp from IGTI.",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Luiz Bueno <contact@luizbueno.com>",
+  "license": "ISC"
+}

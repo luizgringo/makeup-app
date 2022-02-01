@@ -1,0 +1,105 @@
+html,
+body {
+  height: 100%;
+}
+
+html,
+body,
+input,
+textarea,
+button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+a {
+  color: pink;
+}
+
+.navbar {
+  background-color: pink;
+}
+
+.head-logo {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-logo__icon img {
+  width: 60px;
+}
+
+.head-logo__title {
+  font-size: 36px;
+  color: rgba(0, 0, 0, 0.87);
+  padding-left: 12px;
+  font-weight: 200;
+}
+
+.main-page {
+  margin-top: 2em;
+}
+
+.dropdown-item.active {
+  background-color: pink;
+}
+
+.product-name {
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.headtext {
+  font-weight: 100;
+}
+
+.error-message {
+  text-align: center;
+  font-weight: 300;
+}
+
+.brand-text {
+  font-weight: 200;
+}
+
+.card-text {
+  margin-bottom: 1em;
+}
+
+.loading-wrapper {
+  text-align: center;
+}
+
+.collapse {
+  margin-top: 1.5em;
+}
+
+@keyframes append-animate {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.fade {
+  animation: append-animate 0.3s ease-out;
+}
+
+.fade:not(.show) {
+  opacity: 1;
+}
+
+.card {
+  transition: 0.5s;
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
